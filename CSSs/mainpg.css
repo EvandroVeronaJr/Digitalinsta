@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagran-warpper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+
+.instaPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.intaLoguin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 40rem;
+}
+
+.grup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray ;
+    margin: 2px;
+}
+
+.grup:nth-child(1){
+    min-height: 26rem;
+}
+
+.Instalogo{
+    height: 7rem;
+}
+
+.profPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ProfPic{
+    width: 150px;
+    height: 10rem;
+}
+
+.InstaLoguin{
+    background-color: mediumturquoise;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+.InstaLogout{
+    color: mediumturquoise;
+    margin-top: 1rem;
+    padding: 8px;
+    border-radius: 4px;
+}
