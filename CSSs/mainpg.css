@@ -38,7 +38,7 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     min-height: 40rem;
 }
 
@@ -133,6 +133,33 @@ body{
 @media (max-width: 1024px) {
     .instagran-warpper{
         width: 90%;
+    }
+
+}
+@media (max-width: 1300px) {
+    .instagran-warpper{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 925px) {
+    .instagran-warpper{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 830px) {
+    .instagran-warpper{
+        width: 100%;
+        justify-content: center;
+    }
+    .instaPhone{
+        display: none;
+    }
+    .intaLoguin{
+        width: 60%;
     }
 
 }
